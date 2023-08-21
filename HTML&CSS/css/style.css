@@ -1,0 +1,32 @@
+/* Universal Selector */
+*{
+    color: lightcoral;
+}
+/* Type Selector */
+h1{
+    color: rosybrown;
+}
+/* ID Selector using # */
+#fullsatck{
+    color: darkcyan;
+}
+/* class Selector using . */
+.greentext{
+    color: greenyellow;
+}
+/* child Selector using > */
+div>p{
+    color: blueviolet;
+}
+/* Descendent tag Selector using space */
+div a{
+    color: rosybrown;
+}
+/* Sibling Selector using ~ */
+h1~h4{
+    color: red;
+}
+/* Adjacent Sibling Selector using + */
+h1+h2{
+    color: bisque;
+}
